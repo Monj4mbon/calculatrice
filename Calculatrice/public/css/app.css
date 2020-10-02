@@ -1,0 +1,92 @@
+#calculatrice {
+    width : 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* style div */
+
+#div1 {
+    background-color: black;
+    border-bottom: white solid .5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2 {
+    background-color: black;
+    border-bottom: white solid .5px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px
+}
+
+/* div input  */
+
+.surInput {
+    display: flex;
+}
+
+.parentInput {
+    height: 50px;
+}
+
+.divGauche {
+    width: 75%;
+    height: 50px;
+}
+
+.calc {
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* style bouttons */
+
+button {
+    height: 75px;
+    width: 65px;
+}
+
+.num {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.opé {
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#clear {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#egal {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
